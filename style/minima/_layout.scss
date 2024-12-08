@@ -17,6 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-decoration: none;
 
   &,
   &:visited {
@@ -74,7 +75,9 @@
       display: none;
     }
 
-    &:hover .trigger, &:active .trigger, &:focus .trigger {
+    &:hover .trigger,
+    &:active .trigger,
+    &:focus .trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -90,8 +93,6 @@
     }
   }
 }
-
-
 
 /**
  * Site footer
@@ -127,29 +128,29 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -157,11 +158,9 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-
 
 /**
  * Page content
@@ -192,8 +191,6 @@
   display: block;
   font-size: 24px;
 }
-
-
 
 /**
  * Posts

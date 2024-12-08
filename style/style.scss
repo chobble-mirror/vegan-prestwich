@@ -49,6 +49,11 @@ ul {
   font-size: smaller;
 }
 
+a {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
 .places-list {
   &--detailed {
     color: $grey-color;
